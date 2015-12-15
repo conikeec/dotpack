@@ -1,0 +1,35 @@
+alias c="clear"
+alias co="code"
+alias at="atom"
+alias zshconfig="edit ~/.zshrc"
+alias ohmyzsh="edit ~/.oh-my-zsh"
+alias diff="colordiff"
+alias df="df -H"
+alias du="du -ch"
+alias ls="ls --color=auto"
+alias sudo="nocorrect sudo"
+alias myip="wget http://nwdesign.us/myip.php -O - -q ; echo"
+alias webserver="python -m SimpleHTTPServer"
+alias update-submodules="git submodule foreach 'git checkout master && git pull origin master'"
+alias glog="git log --graph --oneline --decorate --date-order --color --boundary"
+alias lh='ls -l .??*'
+alias lhd='ls -ld .??*'
+#alias genv="echo 'export GOPATH=$(PWD)/vendor:$GOPATH' > .envrc"
+alias gbproj="gocode set package-lookup-mode gb > .envrc"
+alias gentag="gotags -tag-relative=true -R=true -sort=true -f="tags" -fields=+l ."
+
+#git alias
+alias gitclean="git branch --merged master | grep -v "\* master" | xargs -n 1 git branch -d"
+
+
+man() {
+    env \
+        LESS_TERMCAP_mb=$(printf "\e[1;31m") \
+        LESS_TERMCAP_md=$(printf "\e[1;31m") \
+        LESS_TERMCAP_me=$(printf "\e[0m") \
+        LESS_TERMCAP_se=$(printf "\e[0m") \
+        LESS_TERMCAP_so=$(printf "\e[1;44;33m") \
+        LESS_TERMCAP_ue=$(printf "\e[0m") \
+        LESS_TERMCAP_us=$(printf "\e[1;32m") \
+            man "$@"
+}

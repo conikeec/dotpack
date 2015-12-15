@@ -1,0 +1,5 @@
+#gvm and go config
+source /Users/chetanconikee/.gvm/scripts/gvm
+gvm use go1.5 
+unalias gb
+

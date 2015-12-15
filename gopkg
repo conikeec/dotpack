@@ -1,0 +1,85 @@
+go get -u golang.org/x/tools/cmd/...
+go get -u github.com/golang/lint/golint
+go get -u github.com/Sirupsen/logrus
+go get -u github.com/vinceprignano/gocd
+go get github.com/constabulary/gb/...
+go get -u github.com/jstemmer/gotags
+go get -u github.com/jstemmer/gotags
+go get github.com/nsf/gocode
+go get golang.org/x/tools/cmd/goimports
+go get golang.org/x/tools/cmd/gorename
+go get golang.org/x/tools/cmd/oracle
+go get github.com/golang/lint/golint
+go get golang.org/x/tools/cmd/benchcmp
+go get github.com/ajstarks/svgo/benchviz
+go get github.com/kisielk/errcheck
+go get golang.org/x/tools/cmd/benchcmp
+go get github.com/cespare/prettybench
+go get golang.org/x/tools/cmd/stringer
+go get github.com/josharian/impl
+go get golang.org/x/tools/cmd/goimports
+go get sourcegraph.com/sqs/goreturns
+go get code.google.com/p/rog-go/exp/cmd/godef
+go get github.com/kisielk/godepgraph
+go get github.com/fzipp/pythia
+go get github.com/kisielk/godepgraph
+go get -u github.com/pressly/sup/cmd/sup
+go get -u -v github.com/nsf/gocode
+go get -u -v github.com/rogpeppe/godef
+go get -u -v github.com/golang/lint/golint
+go get -u -v github.com/lukehoban/go-find-references
+go get -u -v github.com/lukehoban/go-outline
+go get -u -v sourcegraph.com/sqs/goreturns
+go get -u -v golang.org/x/tools/cmd/gorename
+go get github.com/derekparker/delve/cmd/dlv
+go get github.com/fzipp/pythia
+go get github.com/fzipp/pythia
+go get github.com/PuerkitoBio/goquery
+go get -u github.com/PuerkitoBio/goquery
+go get -u github.com/PuerkitoBio/goquery
+go get -u github.com/PuerkitoBio/goquery
+go get -u github.com/PuerkitoBio/goquery
+go get -u github.com/PuerkitoBio/goquery
+go get -u github.com/PuerkitoBio/goquery
+go get -u github.com/nsf/gocode
+go get -u github.com/derekparker/delve/cmd/dlv 
+go get -u github.com/derekparker/delve/cmd/dlv 
+go get -u github.com/derekparker/delve/cmd/dlv
+go get -u -v github.com/nsf/gocode
+go get -u -v github.com/rogpeppe/godef
+go get -u -v github.com/golang/lint/golint
+go get -u -v github.com/lukehoban/go-find-references
+go get -u -v github.com/lukehoban/go-outline
+go get -u -v sourcegraph.com/sqs/goreturns
+go get -u -v golang.org/x/tools/cmd/gorename
+go get github.com/constabulary/gb/...
+go get github.com/ghemawat/stream
+go get github.com/kulshekhar/fungen
+go get github.com/google/git-appraise/git-appraise
+go get -u github.com/constabulary/gb/...
+go get -u -v github.com/nsf/gocode
+go get -u -v github.com/rogpeppe/godef
+go get -u -v github.com/golang/lint/golint
+go get -u -v github.com/lukehoban/go-find-references
+go get -u -v github.com/lukehoban/go-outline
+go get -u -v sourcegraph.com/sqs/goreturns
+go get -u -v golang.org/x/tools/cmd/gorename
+go get github.com/derekparker/delve/cmd/dlv
+go get github.com/golang/lint/golint
+go get github.com/kisielk/errcheck
+go get golang.org/x/tools/cmd/benchcmp
+go get github.com/cespare/prettybench
+go get golang.org/x/tools/cmd/stringer
+go get github.com/josharian/impl
+go get golang.org/x/tools/cmd/goimports
+go get code.google.com/p/rog-go/exp/cmd/godef
+go get github.com/nsf/gocode
+go get golang.org/x/tools/cmd/oracle
+go get -u golang.org/x/tools/cmd/...
+go get -u github.com/jstemmer/gotags
+go get golang.org/x/tools/cmd/oracle
+go get github.com/fzipp/pythia
+go get github.com/kisielk/godepgraph
+go get github.com/PuerkitoBio/goquery
+go get github.com/Masterminds/glide/cmd
+go get -u github.com/pressly/sup/cmd/sup
